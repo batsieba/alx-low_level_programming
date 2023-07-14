@@ -2,7 +2,7 @@
 
 /*
  *main - main block
- *Write a program that prints the alphabet in lowercase, followed by a new line.
+ *Write a program that prints the alphabet in lowercase followed by new line
  *Return 0
  *
  */
@@ -12,13 +12,14 @@ int main(void)
 
 	char alpha = 'a';
 	while (alpha <= 'z')
+	
 	{
-		if( alpha != 'e' || alpha != 'q')
+		if (alpha != 'e' && alpha != 'q')
 			putchar(alpha);
 		alpha++;
 	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
 
