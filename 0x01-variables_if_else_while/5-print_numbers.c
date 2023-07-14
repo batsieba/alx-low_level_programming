@@ -8,14 +8,14 @@
  *  Return - 0
  */
 
-int main (void)
+int main(void)
 {
 	int n;
 	n = 0;
 
 	while (n <= 9)
 	{
-	putchar(n);
+	printf("%i",n);
 	n++;
 	}
 	putchar('\n');
