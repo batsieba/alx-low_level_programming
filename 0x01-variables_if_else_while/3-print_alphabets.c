@@ -1,16 +1,22 @@
 #include <stdio.h>
 
-int main() {
-    // Write C code here
-    
+/**
+ * main - main block
+ * Description: Use `putchar` function to print the alphabet in lowercase.
+ * Return: 0
+ */
 
+int main() {
+    
+    
+	char capital;
 	char small = 'a';
 	while (small <= 'z')
 	{
 		putchar(small);
 		small++;
 	}
-	char capital = 'A';
+	capital = 'A';
 	while (capital <= 'Z')
 	{
 		putchar(capital);
