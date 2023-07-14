@@ -7,9 +7,7 @@
  */
 
 int main(void)
-{
-    
-    
+{   
 	char capital;
 	char small = 'a';
 	while (small <= 'z')
@@ -22,9 +20,8 @@ int main(void)
 	{
 		putchar(capital);
 		capital++;
-
 	}
 
 	putchar('\n');
-    return 0;
+    return(0);
 }
