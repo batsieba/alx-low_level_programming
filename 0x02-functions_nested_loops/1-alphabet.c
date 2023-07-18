@@ -3,16 +3,15 @@
 /*
  * print_alphabet - check the code for ALX School students.
  * Return -0
- *
- * */
+ */
 
 void print_alphabet(void)
 {
-	char alpha = 'a' ;
+	char alpha = 'a';
 	while (alpha <= 'z')
-		{
-			_putchar(alpha);
-			alpha++;
-		}
+	{
+		_putchar(alpha);
+		alpha++;
+	}
 	_putchar('\n');
 }
