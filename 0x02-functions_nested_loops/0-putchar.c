@@ -6,15 +6,12 @@
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
+	char word[]="_putchar";
+	int i;
+	for(i=0;i<sizeof(word); i++)
+	{
+		_putchar(word[i]);
+	}
+	_putchar("\n");
 	return (0);
 }
