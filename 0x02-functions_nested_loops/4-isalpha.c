@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _isalpha(int c)- checks if c is letter
- * @c: letter being tested
- * Returns - 1 if c is letter or 0 if anything else
+ * _isalpha - check the code for ALX School students.
+ *
+ * @c: is c an integer argument
+ *
+ * Return: Always 0.
  */
 
 int _isalpha(int c)
