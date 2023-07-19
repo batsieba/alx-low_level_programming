@@ -1,15 +1,22 @@
 #include "main.h"
 
 /**
-	 * Main - main
-	 *
-	 * Description: print alphabets in lowercase
-	 * iterate 10 times
-	 * Return - 0
-	 */
-
+ * print_alphabet_x10 - func
+ *
+ * Return - 0
+ */
 void print_alphabet_x10(void)
 {
-	printf("hi");
-	return(0);
+int b = 0;
+while (b < 10)
+{
+char a = 'a';
+while (a <= 'z')
+{
+_putchar(a);
+a++;
+}
+_putchar('\n');
+b++;
+}
 }
