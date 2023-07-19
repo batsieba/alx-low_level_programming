@@ -2,6 +2,7 @@
 
 /**
  * _isalpha(int c)- checks if c is letter
+ * @c: letter being tested
  * Returns - 1 if c is letter or 0 if anything else
  */
 
