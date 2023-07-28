@@ -1,5 +1,5 @@
-#include "main.h"
-#include <stdio.h>
+#include "main.h"
+#include <stdio.h>
 /**
 * _strcat - This function appends the src string to the dest string
 * @dest: input value
