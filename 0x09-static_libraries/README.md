@@ -1,0 +1,1 @@
+this file will be intended to exercise 'C' static libraries.
