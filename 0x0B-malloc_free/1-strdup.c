@@ -29,7 +29,7 @@ if (new_str == NULL)
 return (NULL);
 }
 
-for (i = 0; str[i]; i++)
+for (i = 0; i < c; i++)
 {
 new_str[i] = str[i];
 }
