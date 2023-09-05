@@ -1,12 +1,12 @@
-#include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 /**
  * free_grid - frees a 2 dimensional grid previously
  * created by your alloc_grid function.
  * @grid: the grid to be cleared
  * @height: the no of rows to be cleared
- * Return: void (on Success)- it frees up some space
+ * Return: nothing
 */
 void free_grid(int **grid, int height)
 {
