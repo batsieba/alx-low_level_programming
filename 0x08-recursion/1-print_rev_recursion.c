@@ -1,9 +1,8 @@
 #include "main.h"
-#include "_putchar.c"
 /**
  * _print_rev_recursion - prints string a reverse
  * @s: input
- * Return: nothing
+ * Return: void
 */
 void _print_rev_recursion(char *s)
 {
